@@ -7,7 +7,7 @@ Ubuntu 20.04 Server 64bit
 - Virtualbox安装完Ubuntu之后新添加的网卡如何实现系统开机自动启用和自动获取IP？  
 所有网卡![](19.png)
 参考资料：(3条消息) ubuntu20添加新网卡后设置自动启用并获取ip_lalala-CSDN博客 https://blog.csdn.net/xiongyangg/article/details/110206220
-- 如何使用sftp在虚拟机和宿主机之间传输文件？
+- 如何使用sftp在虚拟机和宿主机之间传输文件 ？
 ```
 # 连接远程服务器
 sftp root@192.168.25.140
