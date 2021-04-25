@@ -1,6 +1,6 @@
 # shell脚本编程基础
 ## 任务一
-用bash编写一个图片批处理脚本， 实现以下功能：
+用bash编写一个图片批处理脚本，实现以下功能：
 原图：![airplane](airplane.png)![cuc](cuc.jpg)
 - 支持命令行参数方式使用不同功能
 ![help](help.png)

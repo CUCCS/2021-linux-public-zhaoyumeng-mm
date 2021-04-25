@@ -60,11 +60,13 @@ function age {
         small=10000;big=0
     } 
     $6!="Age"{
+        name[$9]=$6
         if($6>big) big=$6
         if($6<small) small=$6
     }END{
-        printf("the biggest age is %d\n",big);
-        printf("the smallest age is %d\n",small)
+        for (i in name){
+        if(name[i]==big) printf("the biggest age is %d,his name is %s\n",big,i);
+        if(name[i]==small) printf("the smallest age is %d,his name is %s\n",small,i)}
     }' worldcupplayerinfo.tsv
 }
 if [ "$1" != "" ];then #判断是什么操作
